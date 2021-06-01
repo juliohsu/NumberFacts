@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css"
+    />
+    <title>NumberFacts</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="main">NumberFacts</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor03"
+          aria-controls="navbarColor03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link random" href="#" id="randomLink">Random
+                <span class="visually-hidden" id="randomSpan">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link year" href="#" id="yearLink">Year
+                <span class="visually-hidden" id="yearSpan">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link date" href="#" id="dateLink">Date
+                <span class="visually-hidden" id="dateSpan">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link math" href="#" id="mathLink">Math
+                <span class="visually-hidden" id="mathSpan">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="card text-white bg-primary mb-3 text-center" id="intro">
+        <div class="card-header mt-5">Welcome to the NumberFacts!</div>
+        <div class="card-body">
+          <h4 class="card-title">Pick one method from navbar</h4>
+          <p class="card-text">In order to check cool facts about numbers.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>&copy; 2021 NumberFacts, autor <a href="https://github.com/juliohsu" target="_blank">Julio Hsu</a>.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
