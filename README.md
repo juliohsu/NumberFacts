@@ -2,7 +2,7 @@
 Hi, this is my new website which give you useful and insteresting facts about humanity history, based on the random number or you can just insert your desired number!
 
 
-PS: TO run normally this website, you have two options:
+PS: To run normally this website, you have two options:
 
 
 Deactive your website protection
